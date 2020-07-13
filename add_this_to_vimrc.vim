@@ -15,3 +15,4 @@ endfunction
  
 nnoremap <leader>u :call RunPHPUnitTest(0)<cr>
 nnoremap <leader>f :call RunPHPUnitTest(1)<cr>
+nnoremap <leader>p :s/\%#/\=repeat(" ", 4)/<cr>
